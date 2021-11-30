@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.circle{
+    background-color: #c4c4c4;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    
+    
+}
+.circle>i{
+    margin-top: 17.5px;
+    font-size: 30px;
+}
+
+.circle:hover::before{
+    content: ' Uzbekistan Respublikasi Davlat Bayrogi qabul qilingan kunning 30 yilligi barchamizga muborak bolsin! 18.11.2021 ';
+    position: absolute;
+    width: 408px;
+    height: 384px;
+    background-color: #e07a7a;
+    border-radius: 25px;
+    top: 80px;
+    left: -170px;
+    box-shadow: 2px 2px 2px 2px rgb(219, 217, 217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle:hover{
+    background-color: rgba(139, 133, 133, 0.411);
+    box-shadow: 3px 3px 3px 3px rgba(73, 72, 72, 0.452);
+    
+}
+.circle:hover>i{
+    color: #e07a7a;
+}
